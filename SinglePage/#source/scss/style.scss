@@ -1,0 +1,63 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+//Шрифты
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+//css код 
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  max-width: 1180px;
+  margin: 0px auto;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+/* header part */
+
+.header{
+	height:800px;
+	background: url(../../img/header.jpg) 0 0 no-repeat;
+}
+.header__row{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.header__content{
+	padding: 70px 0 0 0;
+}
+.header__text{
+	color: #fff;
+	font-size: 49px;
+	line-height: 62px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+/* footer part */
+.footer{
+	background: #43a06d;
+	position: fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+}
+.footer__row{
+	display: flex;
+	height: 47px;
+	justify-content: center;
+	align-items: center;
+}
